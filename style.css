@@ -34,3 +34,25 @@
 html{scroll-behavior:auto}
 /* Haotai's dated work plan: task and deliverable stay together. */
 .haotai-section{background:var(--color-paper);scroll-margin-top:110px}.haotai-jump{display:inline-block;margin-top:9px;color:var(--color-red);font-weight:700;text-decoration:underline;text-underline-offset:4px}.haotai-legend,.haotai-row{display:grid;grid-template-columns:150px minmax(0,1fr) minmax(0,.82fr);gap:24px}.haotai-legend{padding:0 0 12px;font-size:13px;font-weight:900;color:var(--color-red-deep);border-bottom:2px solid var(--color-red)}.haotai-phase-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;background:var(--color-cream);padding:16px 18px;border-bottom:1px solid var(--color-line)}.haotai-phase-head h3{font-size:19px;color:var(--color-red-deep)}.haotai-phase-head span{font-size:13px;font-weight:700;color:var(--color-muted);white-space:nowrap}.haotai-row{padding:22px 0;border-bottom:1px solid var(--color-line)}.haotai-date{font-size:16px;font-weight:900;color:var(--color-red-deep)}.haotai-task h4{font-size:17px;margin:0 0 6px;line-height:1.5}.haotai-task p,.haotai-deliver p{font-size:14px;line-height:1.8}.haotai-deliver{padding:12px 15px;background:var(--color-cream);border-left:3px solid var(--color-red)}.haotai-deliver strong{font-size:12px;color:var(--color-red-deep)}.haotai-deliver p{margin-top:4px}.haotai-note{font-size:13px;color:var(--color-muted);line-height:1.8;margin-top:24px}@media(max-width:800px){.haotai-legend{display:none}.haotai-phase-head{padding:14px}.haotai-phase-head h3{font-size:17px}.haotai-phase-head span{font-size:12px}.haotai-row{grid-template-columns:minmax(0,1fr);gap:8px;padding:20px 0}.haotai-date{font-size:15px}.haotai-task h4{font-size:16px}.haotai-task p,.haotai-deliver p{font-size:14px}.haotai-deliver{padding:11px 13px}.haotai-section{scroll-margin-top:110px}}
+
+/* A compact, readable schedule for Hao Tai's planned work. */
+.haotai-section .section-intro{margin-bottom:28px}
+.haotai-quick{margin-bottom:36px}
+.haotai-quick-label{display:block;margin-bottom:10px;font-size:14px;font-weight:700;color:var(--color-muted)}
+.haotai-quick-links{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.haotai-quick-links a{display:flex;flex-direction:column;justify-content:center;min-height:70px;padding:10px 14px;border:1px solid var(--color-line);background:var(--color-cream);line-height:1.4}
+.haotai-quick-links a:hover{border-color:var(--color-red);color:var(--color-red-deep)}
+.haotai-quick-links strong{font-size:16px}.haotai-quick-links span{font-size:12px;color:var(--color-muted);margin-top:4px}
+.haotai-legend,.haotai-row{grid-template-columns:145px minmax(0,1fr) minmax(0,.85fr);gap:20px}
+.haotai-legend{font-size:14px}.haotai-phase{scroll-margin-top:120px}.haotai-phase-head{margin-top:14px}
+.haotai-row{padding:19px 0;align-items:start}.haotai-date{font-size:16px;line-height:1.5}.haotai-task h4{font-size:18px;line-height:1.45;margin:0 0 4px}.haotai-task p,.haotai-deliver p{font-size:15px;line-height:1.7}
+.haotai-deliver{padding:10px 14px}.haotai-deliver strong{font-size:13px}.haotai-deliver p{margin-top:2px}.haotai-note{font-size:14px}
+@media(max-width:800px){
+ .haotai-quick-links{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+ .haotai-quick-links a{min-height:66px;padding:10px 12px}.haotai-quick-links strong{font-size:15px}
+ .haotai-phase{scroll-margin-top:145px}.haotai-phase-head{margin-top:16px}
+ .haotai-row{grid-template-columns:minmax(0,1fr);gap:0;padding:18px 0}
+ .haotai-date{font-size:15px;margin-bottom:4px}.haotai-task h4{font-size:18px;margin-bottom:3px}
+ .haotai-task p,.haotai-deliver p{font-size:15px;line-height:1.65}
+ .haotai-deliver{margin-top:10px;padding:9px 12px}.haotai-deliver strong{font-size:13px}
+}
